@@ -1,0 +1,12 @@
+{
+  "name": "illumine-help-center",
+  "version": "1.0.0",
+  "description": "illumine Help Center homepage",
+  "scripts": {
+    "dev": "npx serve . -p 3000 --no-clipboard",
+    "start": "npx serve . -p 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3"
+  }
+}
