@@ -339,33 +339,33 @@ const ICONS = {
 }
 
 const MODULE_ICONS = {
-  "Getting Started": ICONS.book,
-  "Attendance": ICONS.admin,
   "Billing & Payments": ICONS.billing,
-  "Enrollment & Admissions": ICONS.enroll,
+  "Lessons & Curriculum": ICONS.book,
+  "Attendance": ICONS.admin,
   "Parent Communication": ICONS.chat,
+  "Student Registration": ICONS.enroll,
+  "Inquiries & Admissions": ICONS.form,
   "Reports & Analytics": ICONS.reports,
-  "Learning & Assessments": ICONS.book,
+  "Forms": ICONS.form,
   "Staff Management": ICONS.staff,
   "Programs & Scheduling": ICONS.clock,
-  "Multi-Center": ICONS.building,
-  "Forms & Applications": ICONS.form,
-  "Settings & Access": ICONS.settings,
+  "Messages": ICONS.chat,
+  "Settings & Permissions": ICONS.settings,
 }
 
 const MODULE_DESCS = {
-  "Getting Started":          "Set up your school on illumine. New admin? Start here.",
-  "Attendance":               "Check-in, check-out, QR codes, kiosk mode and reports.",
-  "Billing & Payments":       "Fee plans, invoices, online payments and billing reports.",
-  "Enrollment & Admissions":  "Enquiry pipeline, admissions, forms and waitlists.",
-  "Parent Communication":     "Newsletters, announcements and messaging.",
-  "Reports & Analytics":      "Attendance, billing, occupancy and learning reports.",
-  "Learning & Assessments":   "Lesson plans, observations, portfolios and assessments.",
-  "Staff Management":         "Staff profiles, scheduling, leaves and payroll.",
-  "Programs & Scheduling":    "Programs, timetables and curriculum planning.",
-  "Multi-Center":             "Cross-center dashboard, reporting and management.",
-  "Forms & Applications":     "Custom forms, checklists and digital signatures.",
-  "Settings & Access":        "Roles, permissions, integrations and account settings.",
+  "Billing & Payments":      "Fee plans, invoices, online payments and billing reports.",
+  "Lessons & Curriculum":    "Lesson plans, AI lessons, observations, portfolios and assessments.",
+  "Attendance":              "Check-in, check-out, QR codes, kiosk mode and reports.",
+  "Parent Communication":    "Activities, daily reports, newsletters and announcements.",
+  "Student Registration":    "Add students and parents, bulk upload and manage profiles.",
+  "Inquiries & Admissions":  "Enquiry pipeline, admissions, forms and waitlists.",
+  "Reports & Analytics":     "Attendance, billing, occupancy and learning reports.",
+  "Forms":                   "Custom forms, checklists and digital signatures.",
+  "Staff Management":        "Staff profiles, scheduling, leaves and payroll.",
+  "Programs & Scheduling":   "Programs, timetables and curriculum planning.",
+  "Messages":                "Shared, group and direct messaging with parents and staff.",
+  "Settings & Permissions":  "Roles, permissions, integrations and account settings.",
 }
 
 const PERSONA_DESCS = {
@@ -428,8 +428,8 @@ export default function App() {
           />
         </a>
         <div className="nav-right">
-          <a className="nav-link-text" href="https://help.illumine.app/en/collections/product-training-videos" target="_blank" rel="noreferrer">Training Videos</a>
-          <a className="nav-link-text" href="https://help.illumine.app/en/collections/product-updates" target="_blank" rel="noreferrer">Product Updates</a>
+          <a className="nav-link-text" href="https://help.illumine.app/en/collections/16950327-product-training-videos" target="_blank" rel="noreferrer">Training Videos</a>
+          <a className="nav-link-text" href="https://help.illumine.app/en/collections/10822217-product-release-notes" target="_blank" rel="noreferrer">Product Updates</a>
           <a className="nav-link-text" href="https://help.illumine.app/en/" target="_blank" rel="noreferrer">All Articles</a>
         </div>
       </nav>
@@ -540,7 +540,7 @@ export default function App() {
             <span className="sh-title">Training videos</span>
             <span className="sh-sub">Walkthroughs of key features</span>
           </div>
-          <a className="sh-link" href="https://help.illumine.app/en/collections/product-training-videos">View all 16 →</a>
+          <a className="sh-link" href="https://help.illumine.app/en/collections/16950327-product-training-videos">View all 16 →</a>
         </div>
         <div className="vtabs">
           {VIDEO_TABS.map(t => (
@@ -579,7 +579,7 @@ export default function App() {
             <span className="sh-title">Product updates</span>
             <span className="sh-sub">What's new in illumine</span>
           </div>
-          <a className="sh-link" href="https://help.illumine.app/en/collections/product-updates">Full history →</a>
+          <a className="sh-link" href="https://help.illumine.app/en/collections/10822217-product-release-notes">Full history →</a>
         </div>
         <div className="rel-wrap">
           <div className="rel-nav">
@@ -611,7 +611,7 @@ export default function App() {
               ))}
             </div>
             <div className="rel-footer">
-              <a className="rel-all" href="https://help.illumine.app/en/collections/product-updates">← All release notes</a>
+              <a className="rel-all" href="https://help.illumine.app/en/collections/10822217-product-release-notes">← All release notes</a>
               <span className="rel-rss"><RssIco /> RSS feed</span>
             </div>
           </div>
