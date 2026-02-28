@@ -3,7 +3,7 @@ import {
   SEARCH_SUGGESTIONS, SEARCH_HINTS,
   PERSONAS, GS_STEPS, MODULES,
   VIDEOS, VIDEO_TABS, RELEASES,
-  POPULAR, CONTACT_OPTIONS, REGIONS, FOOTER_LINKS,
+  POPULAR, CONTACT_OPTIONS, FOOTER_LINKS,
 } from "./CONTENT.js"
 
 // ── TOKENS — extracted directly from help.illumine.app screenshot ──
@@ -655,18 +655,6 @@ export default function App() {
                   </a>
                 ))}
               </div>
-            </div>
-            <div className="sc">
-              <div className="sc-title">Your region</div>
-              {REGIONS.map(r => (
-                <a key={r.label} className="sc-reg" href={r.href}>
-                  <span style={{ fontSize: 17 }}>{r.flag}</span>
-                  <div>
-                    <div className="sc-reg-l">{r.label}</div>
-                    <div className="sc-reg-s">{r.sub}</div>
-                  </div>
-                </a>
-              ))}
             </div>
           </div>
         </div>

@@ -174,14 +174,6 @@ export const POPULAR = [
 export const CONTACT_OPTIONS = [
   { label: "Live Chat",              sub: "Avg. response: 3 min",   href: "https://illumine.app" },
   { label: "Email Support",          sub: "info@myillumine.com",     href: "mailto:info@myillumine.com" },
-  { label: "Book Onboarding Call",   sub: "Free 30-min setup call",  href: "https://illumine.app/book" },
-]
-
-export const REGIONS = [
-  { flag: "\u{1F1FA}\u{1F1F8}", label: "United States",        sub: "USA Product Guide",       href: `${DOCS}/en/collections/17220897-product-guide-usa` },
-  { flag: "\u{1F1E6}\u{1F1EA}", label: "UAE & Middle East",     sub: "Arabic UI supported",     href: `${DOCS}/en/collections/10822297-using-illumine-admin-guide` },
-  { flag: "\u{1F1EC}\u{1F1E7}", label: "United Kingdom",         sub: "EYFS curriculum guides",  href: `${DOCS}/en/collections/10822297-using-illumine-admin-guide` },
-  { flag: "\u{1F1EE}\u{1F1F3}", label: "India & Southeast Asia", sub: "INR billing support",     href: `${DOCS}/en/collections/10822297-using-illumine-admin-guide` },
 ]
 
 export const FOOTER_LINKS = [
